@@ -42,7 +42,7 @@ class BubbleSort:
 arr = list(map(int,input("Enter array: ").split()))
 print("Before bubble sort: ")
 print(" ".join(map(str,arr)))
-sorter = BubbleSort()
+sorter = BubbleSort() 
 sorter.bubble_sort(arr)
 
 # TC = O(n) --> Best Case
